@@ -1,6 +1,9 @@
 # URL-Hashing-System
 A complete URL hashing system that helps to track and make large urls short.
 
+The application can be accessed here at:
+`http://localhost:8080`
+
 ## Application Tech Stack
 * Frontend technologies:
   * Javascript 6
