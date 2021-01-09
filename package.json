@@ -4,7 +4,7 @@
   "description": "App to shorten large url to small ad redirect directly to them.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm i && node server.js",
     "dev": "nodemon server.js"
   },
   "repository": {
