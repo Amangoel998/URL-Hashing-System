@@ -1,0 +1,25 @@
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Successfully created Short URL</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label for="basic-url">Copy Your into Browser URL</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon3">Copy URL</span>
+                    </div>
+                    <input type="text" class="form-control" name="shorturl" value="<%=shorturl%>" id="shorturl"
+                        aria-describedby="basic-addon3" readonly>
+                    <form action="/"><button type="submit" class="btn btn-danger" data-dismiss="modal"
+                            data-clipboard-target="#shorturl">Close</button></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
