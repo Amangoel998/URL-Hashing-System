@@ -16,13 +16,13 @@ A complete URL hashing system that helps to track and make large urls short.
 
 ## Application Working
 ### Home Page
-![Home](/images/Home.png)
+![Home](/Images/Home.png)
 
 ### Generate short URL
-![Generate](/images/GeneratedURL.png)
+![Generate](/Images/GeneratedURL.png)
 
 ### Clicks Count
-![ClicksCount](/images/ClicksCount.png)
+![ClicksCount](/Images/ClicksCount.png)
 
 __Implemented a URL shortening service.__
 
